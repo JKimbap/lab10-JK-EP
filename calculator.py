@@ -6,7 +6,6 @@ One function per operation, in order.
 """
 
 import math
-
 def add(a, b):
     return a + b
 
@@ -25,6 +24,11 @@ def loga(a, b):
     if a <= 0 or a == 1 or b <= 0:
         raise ValueError
     return math.log(b, a)
+
+def logarithm(a, b):
+    if a <= 0 or a == 1 or b <= 0:
+        raise ValueError("Logarithm is undefined for these values.")
+    return math.log(b,a)
 
 def exponent(a, b):
     return a**b
