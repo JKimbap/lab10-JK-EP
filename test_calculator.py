@@ -21,8 +21,8 @@ class TestCalculator(unittest.TestCase):
         self.assertAlmostEqual(mul(0.6,0.7),0.42)
 
     def test_divide(self): # 3 assertions
-        self.assertAlmostEqual(div(3,15),5.0)
-        self.assertAlmostEqual(div(3,-15), -5.0)
+        self.assertAlmostEqual(div(3,15),5)
+        self.assertAlmostEqual(div(3,-15), -5)
         with self.assertRaises(ZeroDivisionError):
             div(0,15)
 
@@ -65,7 +65,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_sqrt(self): # 3 assertions
         self.assertAlmostEqual(square_root(0),0)
-        self.assertAlmostEqual(square_root(25),5.0)
+        self.assertAlmostEqual(square_root(25),5)
         with self.assertRaises(ValueError):
             square_root(-1)
     #     # Test for invalid argument, example:
