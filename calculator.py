@@ -1,3 +1,7 @@
+# https://github.com/JKimbap/lab10-JK-EP.git
+# Partner 1: Jay Kim
+# Partner 2: Erika Poirier
+
 """
 calculator.py
 - Defines functions used to create a simple calculator

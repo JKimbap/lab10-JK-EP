@@ -1,5 +1,10 @@
+# https://github.com/JKimbap/lab10-JK-EP.git
+# Partner 1: Jay Kim
+# Partner 2: Erika Poirier
+
 import unittest
 from calculator import *
+
 
 class TestCalculator(unittest.TestCase):
     ######## Partner 2
