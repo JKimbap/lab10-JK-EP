@@ -1,6 +1,11 @@
 import unittest
 from calculator import *
 
+# https://github.com/JKimbap/lab10-JK-EP.git
+# Partner 1: Jay Kim
+# Partner 2: Erika Poirier
+
+
 class TestCalculator(unittest.TestCase):
     ######## Partner 2
     def test_add(self): # 3 assertions
